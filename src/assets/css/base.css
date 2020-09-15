@@ -1,0 +1,14 @@
+@import './normalize.css';
+:root {
+    --color-text: #666;
+    --color-high-text: #ff5777;
+    --color-text: #ff8198;
+    --color-background: #fff;
+    --font-size: 14px;
+    --line-height: 1.5;
+    /* --line-height可以在里面被var(--line-height调用) */
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
