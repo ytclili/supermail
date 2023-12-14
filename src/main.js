@@ -12,6 +12,7 @@ Vue.use(toast)
 Vue.use(vuelazyload,{
   loading:require('assets/img/home/beautiful.jpg')//图片懒加载
 })
+// console.log("打印测试==")
 fastclick.attach(document.body)
 new Vue({
   render: h => h(App),
